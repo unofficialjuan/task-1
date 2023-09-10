@@ -1,0 +1,44 @@
+
+header{
+    background-color: slategray;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+}
+header h1{
+   color: white;
+   border: 6px solid white;
+   padding: 6px 12px;
+    display: inline-block;
+}
+.container img{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+}
+.info{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.info ul{
+    text-align: center;
+}
+.info li{
+    position: relative;
+    top: -10px;
+    margin: 0px;
+    width: 480px;
+    display: inline-block;
+    font-size: 20px;
+}
+.info li p{
+    color: #4b4b4b;
+    font-size: 22px;
+}
+ 
+
