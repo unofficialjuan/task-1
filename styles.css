@@ -14,7 +14,7 @@ header h1{
     display: inline-block;
 }
 .container img{
-    width: 25%;
+    width: 34%;
     display: flex;
     margin: auto;
     margin-top: 10%;
@@ -51,4 +51,44 @@ p{
 }
 .container p{
     font-weight: bold;
+}
+
+@media screen and (max-width: 1023px){
+
+    .info li{
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }  
+}
+
+@media screen and (max-width: 930px){
+
+    .info li{
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        left: 170px;
+    }  
+
+}
+
+@media screen and (max-width: 720px){
+
+    .container img{
+        display: flex;
+        width: 300px;
+    }
+    .info li h2{
+        position: relative;
+        color: #324141;
+        right: 125px;
+    }
+}
+@media screen and (max-width: 610px){
+    .info li h2{
+        position: relative;
+        right: 180px;
+
 }
