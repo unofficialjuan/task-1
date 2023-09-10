@@ -3,6 +3,7 @@
  <head> 
   <link rel="stylesheet" href="styles.css">
   <title>Personal Data Showcase</title> 
+  <meta charset="UTF-8"
   <meta name="viewport" content="width=device-width", initial-scale="1.0">
 </head>
 
@@ -14,6 +15,7 @@
   
   <div class="container"> 
   <img src="me.png.jpg" alt="Juan" data-testid="slackDisplayImage">
+  <P data-testid="myTrack">Track: FrontEnd</P>
   </div>
     
   <div class="info">
@@ -21,24 +23,13 @@
       <li><h2 data-testid="currentDayOfTheWeek-header">Current Day Of The Week</h3></li>
         <li><h2 data-testid="currentUTCTime-header">Current UTC Time In Milliseconds</h3></li> 
         <br>
-        <li><p data-testid="currentDayOfTheWeek-data">Saturday</p></li>
-        <li><p id="currentUTCTime-data">12:00:00</p></li> 
+        <li><p data-testid="currentDayOfTheWeek">Saturday</p></li>
+        <li><p data-testid="currentUTCTime">12:00:00</p></li> 
     </ul> 
   </div>
 
+  <script src="script.js"></script>
+
   <p data-testid="githubURL"><a href="https://github.com/unofficialjuan/task-1.git">Git URL</a></p>
-  
-  <script>
-    let time = document.getElementById("currentUTCTime-data");
-
-
-    setInterval(() => {
-      let d = new Date();
-      time.innerHTML = d.toLocaleTimeString();
-    },1000);
-    
-  
-  </script>
-
- 
+   
 </body></html>

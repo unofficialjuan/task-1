@@ -18,14 +18,20 @@ header h1{
     display: flex;
     margin: auto;
     margin-top: 10%;
+    padding: 0 40px;
+    box-sizing: border-box;
+    max-width: 100%;
+
 }
 .info{
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .info ul{
     text-align: center;
+    max-width: fit-content;
 }
 .info li{
     position: relative;
@@ -42,4 +48,7 @@ header h1{
 p{
     text-align: center;
     font-size: 23px;
+}
+.container p{
+    font-weight: bold;
 }
